@@ -32,6 +32,19 @@ body {
   z-index: 1010;
 }
 
+.linkedin-header {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  font-size: 1.7rem;
+  color: #bb86fc;
+  transition: color 0.3s ease;
+}
+
+.linkedin-header:hover {
+  color: #d9bfff;
+}
+
 .menu {
   display: none;
   flex-direction: column;
