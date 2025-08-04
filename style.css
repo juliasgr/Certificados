@@ -118,6 +118,46 @@ body {
   max-width: 500px;
   line-height: 1.5;
 }
+.citacao {
+  width: 90%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-left: 4px solid #bb86fc;
+  background: rgba(255, 255, 255, 0.02);
+  color: #ddd;
+  font-style: italic;
+  font-size: 1.1rem;
+  position: relative;
+  box-shadow: 0 0 12px rgba(187, 134, 252, 0.1);
+  border-radius: 12px;
+}
+
+@media (min-width: 768px) {
+  .citacao {
+    width: 900px;
+    padding: 2rem;
+  }
+}
+.citacao::before {
+  content: "“";
+  font-size: 3rem;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  color: #bb86fc;
+  opacity: 0.4;
+}
+
+.citacao blockquote {
+  margin: 0;
+}
+
+.citacao footer {
+  text-align: right;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #aaa;
+}
 
 .certificados {
   display: grid;
